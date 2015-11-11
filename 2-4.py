@@ -133,8 +133,6 @@ plt.legend(prop={'size':8})
 plt.tight_layout()
 plt.show()
 
-#os.popen('/Applications/Automator.app')
-
 filenaam = __file__
 
 os.system("git init")
@@ -146,4 +144,7 @@ try:
     os.system("git remote add origin https://github.com/J4mie1/hello-world.git")
 except:
     os.system("git push -u origin master")
+
+#een wijziging
+
 
