@@ -140,10 +140,10 @@ os.system("git add " + str(filenaam))
 os.system("git commit -m 'commit'")
 os.system("git pull origin master")
 
-try:
-    os.system("git remote add origin https://github.com/J4mie1/hello-world.git")
-except:
-    os.system("git push -u origin master")
+
+os.system("git remote add origin https://github.com/J4mie1/hello-world.git")
+
+os.system("git push -u origin master")
 
 #een wijziging
 
