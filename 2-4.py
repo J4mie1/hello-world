@@ -135,7 +135,6 @@ plt.show()
 
 filenaam = __file__
 
-
 os.system("git init")
 os.system("git add " + str(filenaam))
 os.system("git commit -m 'commit'")
@@ -143,4 +142,4 @@ os.system("git pull origin master")
 os.system("git remote add origin https://github.com/J4mie1/hello-world.git")
 os.system("git push -u origin master")
 
-#nieuw commentaar
+#nieuw commentaar 11 dec 2015
